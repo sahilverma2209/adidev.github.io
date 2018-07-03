@@ -336,28 +336,28 @@
         font-style:normal;
         background-color:white;
     }
-.navbar{
-    width:100%;
-    height:70px;
-    top:0px;
-    position:absolute;
-    z-index:999;
-    background-color:white;
-    font-size: 11px;
-}
+    .navbar{
+        width:100%;
+        height:70px;
+        top:0px;
+        position:absolute;
+        z-index:999;
+        background-color:white;
+        font-size: 11px;
+    }
 
-.up_in_mobile{
-    margin-top:-20vh;
-}
-.arth_contact{
-    width:60%;margin-left:20%;height:45vh;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);background-color:white;border-radius:2%;
-}
-.adi_contact{
-    margin-top:5vh;width:60%;margin-left:20%;height:48vh;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);background-color:white;border-radius:2%;
-}
-.sns_contact{
-    margin-top:5vh;width:60%;margin-left:20%;height:43vh;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);background-color:white;border-radius:2%;
-}
+    .up_in_mobile{
+        margin-top:-20vh;
+    }
+    .arth_contact{
+        width:60%;margin-left:20%;height:45vh;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);background-color:white;border-radius:2%;
+    }
+    .adi_contact{
+        margin-top:5vh;width:60%;margin-left:20%;height:48vh;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);background-color:white;border-radius:2%;
+    }
+    .sns_contact{
+        margin-top:5vh;width:60%;margin-left:20%;height:43vh;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);background-color:white;border-radius:2%;
+    }
     #section2::before{
         content:'';
         position:absolute;
@@ -368,16 +368,16 @@
         background-size: 100vw 100vh;
         background-repeat: no-repeat;
     }    
-#section3::before{
-    content:'';
-    position:absolute;
-    width:100vw;
-    height:100vh;
-    top:0vh;
-    background-image: url('assets/tnbm.jpg');
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-}
+    #section3::before{
+        content:'';
+        position:absolute;
+        width:100vw;
+        height:100vh;
+        top:0vh;
+        background-image: url('assets/tnbm.jpg');
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+    }
     #grey{
 
         position:absolute;
@@ -422,32 +422,31 @@
         text-align:center;
         font-size:1.3rem;
     }
-    }
+}
 
-    @media only screen and (max-width: 400px) {
-        .navlogo{
-            height:4.5vh;
-        }
-            
-        .chalja{
-            font-size:14px;
-            font-family:'brandon_textbold';
-            font-weight:normal;
-            font-style:normal;
-            background-color:white;
-        }
-        .arth_contact{
-            width:60%;margin-left:20%;height:60vh;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);background-color:white;border-radius:2%;
-        }
-        .adi_contact{
-            margin-top:5vh;width:60%;margin-left:20%;height:60vh;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);background-color:white;border-radius:2%;
-        }
-        .sns_contact{
-            margin-top:5vh;width:60%;margin-left:20%;height:60vh;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);background-color:white;border-radius:2%;
-        }
+@media only screen and (max-width: 400px) {
+    .navlogo{
+        height:4.5vh;
+    }
         
+    .chalja{
+        font-size:14px;
+        font-family:'brandon_textbold';
+        font-weight:normal;
+        font-style:normal;
+        background-color:white;
+    }
+    .arth_contact{
+        width:60%;margin-left:20%;height:60vh;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);background-color:white;border-radius:2%;
+    }
+    .adi_contact{
+        margin-top:5vh;width:60%;margin-left:20%;height:60vh;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);background-color:white;border-radius:2%;
+    }
+    .sns_contact{
+        margin-top:5vh;width:60%;margin-left:20%;height:60vh;box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);background-color:white;border-radius:2%;
     }
     
+}
     
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
