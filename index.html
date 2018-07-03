@@ -22,7 +22,7 @@
     if (isMobile.matches) {
         $('#fullpage').fullpage ({
             autoScrolling:false,
-            resize:false
+            resize:false,
         });     
     }
     else {
@@ -565,6 +565,14 @@
      </div>
 </div>
 <script src="nav/navbar.js"></script>
+<script>
+$(document).ready(function(){
+    navbar();
+});
+$(".planwhite").click(function(){
+    navbar();
+});
+</script>
 
 </body>
 </html>
