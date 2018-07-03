@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="doc">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ADI Developers</title>
+    <link rel="icon" href="assets/favicon.ico" type="image/gif" sizes="32x32">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+
+    <script type="text/javascript">
+        var isPhoneDevice = "ontouchstart" in document.documentElement; 
+    $(document).ready(function() {
+    var isMobile = window.matchMedia("only screen and (max-width: 760px)");
+    if (isMobile.matches) {
+        $('#fullpage').fullpage ({
+            autoScrolling:false,
+            resize:false
+        });     
+    }
+    else {
+        $('#fullpage').fullpage({
+            scrollBar:true,
+            scrollOverflow: true,
+            scrollingSpeed: 800,
+            resize: false,
+            touchSensitivity: 10,
+            css3: true 
+        });
+    }
+});
+    </script>
+</head>
+<body style="overflow-x:hidden !important;width:100vw;">
+
+<nav class="navbar navbar-inverse navbar-fixed-top" style="position:fixed;margin-top:0;background-color:transparent;">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" style="margin-left:2%;"><img src="assets/Logo.png" class="navlogo"></a>
+        
+        </div>
+        <div class="collapse navbar-collapse chalja" id="myNavbar" style="font-family:brandon_textbold;">
+            <ul class="nav navbar-nav" id="menus">
+                <li class="hidden-sm hidden-xs" id="home"><a href="#page1"><span class="planwhite">HOME</span></span></a></li>
+                <li id="about"><a href="#page2"><span class="planwhite">ABOUT</span></a></li>
+                <li id="highl"><a href="#page3"><span class="planwhite">HIGHLIGHTS</span></a></li>
+                <li class="hidden-sm hidden-xs" id="plan"><a href="#page4"><span class="planwhite">PLAN</span></a></li>
+                <li id="types"><a href="#page5"><span class="planwhite">TYPES</span></a></li>
+                <li id="fac"><a href="#page6"><span class="planwhite">FACILITIES</span></a></li>
+                <li id="speci"><a href="#page7"><span class="planwhite">SPECIFICATIONS</span></a></li>
+                <li id="accessi"><a href="#page8"><span class="planwhite">ACCESSIBILITY</span></a></li>
+                <li id="cont"><a href="#page9"><span class="planwhite">CONTACT</span></a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="fullpage">
+    <div class="section hidden-sm hidden-xs" id="section1" data-anchor="page1" style="height:100vh;width:100vw;">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 hidden-xs hidden-sm">
+                    <img data-src="assets/home5.jpg" width="100%" class="img-responsive" style="z-index:-1;width:100vw;height:100vh;">
+
+                </div>
+                   <div class="col-md-12 hidden-md hidden-lg">
+                    <img data-src="assets/north.png" width="100%" class="img-responsive">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+ 
+
+   <div class="section" id="section2" data-anchor="page2" style="height:100vh;width:100vw;">
+     <div class="container-fluid">
+        <div class="row">
+              <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
+                <p id="secondtext"><span id="heading">celebrate beauty and splendour</span></br><span id="naturally" style="font-family:'brandon_textbold';color:#b0c963;line-height:30px;">naturally</span></p>
+                <p id="secondpara" style="font-family:'brandon_text_regularregular';font-size:2.2vh;">Adi's North Lake is a thoughtfully blend of modernity, exclusivity and natural finery. The lavish apartment blend effortlessly with the serenity and beauty of the setting on one side inspirational backdrop of Jakkur lake, which is a mere stone's throw from the site, and a flourishing farm on the other. Rest assured each home exudes on authentic urban feel and individually styled meet the distinctive needs of modern families.<a href="https://github.com/sahilverma2209/adidevelopers.github.io/raw/master/assets/Adi's%20North%20Lake%20E-Brochure-2.pdf" download="Adi's North Lake Brochure" style="text-decoration:none;font-family:'brandon_text_regularregular';font-size:2.2vh;">&nbsp;Download Brochure </a></p>
+
+              </div>
+              <div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
+                <img id="second" src="assets/second.jpg" class="img-responsive"><img>
+              </div>
+
+        </div>
+   </div>
+
+  </div>
+
+
+<div class="section p3" data-anchor="page3" id="section3" style="height:100vh;background-color:#f9f9f9;width:100vw;">
+    <div class="container-fluid">
+        
+    <div class="row">
+        <center><div class="hidden-lg hidden-md col-xs-12" style="font-family:'brandon_textbold';font-size:1.8rem;color:#97ae4f">Highlights</div></center></br class="hidden-lg hidden-md"></br class="hidden-lg hidden-md">
+        <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+        <div style="line-height:24px; font-family:'brandon_text_regularregular';" id="list1">
+            <div class="hl_txt">135 flats ranging from 1000sft. to 1485 sft.</div> <img data-src="assets/flats_1.svg" width="3%" style="margin-left:2%;">  </img>   </br>
+            <div class="hl_txt">Grand entry arch </div><img data-src="assets/arch.svg" width="3%" style="margin-left:2%;"> </br>
+            <div class="hl_txt">100% Vaasthu Compliant </div><img data-src="assets/vastu.jpg" width="3%" style="margin-left:2%;"> </br>
+            <div class="hl_txt">Swimming Pool</div> <img data-src="assets/pool.svg" width="3%" style="margin-left:2%;"> </br>
+            <div class="hl_txt"> Landscaped children’s play area</div> <img data-src="assets/play_1.svg" width="3%" style="margin-left:2%;"> </br>
+            <div class="hl_txt"> Elder’s park and sitting lounge </div><img data-src="assets/sitting.svg" width="3%" style="margin-left:2%;"> </br>
+            <div class="hl_txt"> Podium Garden</div> <img data-src="assets/podium_1.svg" width="3%" style="margin-left:2%;"> </br>
+
+        </div>
+        </div>
+        <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+        <div style="line-height:25px;font-family:'brandon_text_regularregular';" id="list2">
+            <img data-src="assets/jog_1.svg" width="3%" class="hidden-xs hidden-sm" style="margin-right:2%"><div class="hl_txt">Jogging track </div>   <img data-src="assets/jog_1.svg" width="3%" class="hidden-md hidden-lg"> </br>
+            <img data-src="assets/hoop.svg" width="3%" class="hidden-xs hidden-sm" style="margin-right:2%"><div class="hl_txt">Basketball hoop </div><img data-src="assets/hoop.svg" width="3%" class="hidden-md hidden-lg"> </br>
+            <img data-src="assets/rain.svg" width="3%" class="hidden-xs hidden-sm" style="margin-right:2%"><div class="hl_txt">Rainwater harvesting pits </div><img data-src="assets/rain.svg" width="3%" class="hidden-md hidden-lg"> </br>
+            <img data-src="assets/plant.svg" width="3%" class="hidden-xs hidden-sm" style="margin-right:2%"><div class="hl_txt"> Sewerage treatment plant</div> <img data-src="assets/plant.svg" width="3%" class="hidden-md hidden-lg"> </br>
+            <img data-src="assets/lift.svg" width="3%" class="hidden-xs hidden-sm" style="margin-right:2%"><div class="hl_txt"> 4 lifts and 4 staircase </div><img data-src="assets/lift.svg" width="3%" class="hidden-md hidden-lg"> </br>
+            <img data-src="assets/generator.svg" width="3%" class="hidden-xs hidden-sm" style="margin-right:2%"><div class="hl_txt"> Stand by generator</div> <img data-src="assets/generator .svg" width="3%" class="hidden-md hidden-lg"> </br>
+            <img data-src="assets/intercom_1.svg" width="3%" class="hidden-xs hidden-sm" style="margin-right:2%"><div class="hl_txt"> Intercom facility from security encolusure to aprtments</div> <img data-src="assets/intercom_1.svg" width="3%" class="hidden-md hidden-lg"> </br>
+        </div>
+        </div>
+    </div>
+
+
+
+    <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
+        <p style="line-height:24px; font-family:'brandon_text_regularregular';" id="list1">
+            135 flats ranging from 1000sft. to 1485 sft. <img src="assets/flats_1.svg" width="4%"/></br>
+            Grand entry arch <img src="assets/arch.svg" width="4%"> </br>
+            100% Vaasthu Compliant <img src="assets/vastu.jpg" width="4%"> </br>
+            Swimming Pool <img src="assets/pool.svg" width="4%"> </br>
+            Landscaped children’s play area <img src="assets/play_1.svg" width="4%"> </br>
+            Elder’s park and sitting lounge <img src="assets/sitting.svg" width="4%"> </br>
+            Podium Garden <img src="assets/podium_1.svg" width="4%"> </br>
+
+        </p>
+    </div>
+    <div class="col-xs-12 col-sm-12 hidden-md hidden-lg">
+        <p style="line-height:25px;font-family:'brandon_text_regularregular';" id="list2">
+            <img src="assets/jog_1.svg" width="4%" class="hidden-xs hidden-sm"> Jogging track    <img src="assets/jog_1.svg" width="4%" class="hidden-md hidden-lg"> </br>
+            <img src="assets/hoop.svg" width="4%" class="hidden-xs hidden-sm"> Basketball hoop <img src="assets/hoop.svg" width="4%" class="hidden-md hidden-lg"> </br>
+            <img src="assets/rain.svg" width="4%" class="hidden-xs hidden-sm"> Rainwater harvesting pits <img src="assets/rain.svg" width="4%" class="hidden-md hidden-lg"> </br>
+            <img src="assets/plant.svg" width="4%" class="hidden-xs hidden-sm"> Sewerage treatment plant <img src="assets/plant.svg" width="4%" class="hidden-md hidden-lg"> </br>
+            <img src="assets/lift.svg" width="4%" class="hidden-xs hidden-sm"> 4 lifts and 4 staircase <img src="assets/lift.svg" width="4%" class="hidden-md hidden-lg"> </br>
+            <img src="assets/generator.svg" width="4%" class="hidden-xs hidden-sm"> Stand by generator <img src="assets/generator.svg" width="4%" class="hidden-md hidden-lg"> </br>
+            <img src="assets/intercom_1.svg" width="4%" class="hidden-xs hidden-sm"> Intercom facility from security encolusure to aprtments <img src="assets/intercom_1.svg" width="4%" class="hidden-md hidden-lg"> </br>
+        </p>
+    </div>
+</div>
+
+
+</div>
+<div class="section hidden-sm hidden-xs" id="section4" data-anchor="page4" style="height:100vh;width:100vw;">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-toggle="tooltip" title="Click Image to Download!">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active"><a href="https://github.com/sahilverma2209/adidevelopers.github.io/blob/master/assets/Plan.png?raw=true" download="Plan">
+                <img data-src="assets/plann1.jpg" alt="Los Angeles" style="width:100%;"></a>
+            </div>
+
+            <div class="item"><a href="https://github.com/sahilverma2209/adidevelopers.github.io/blob/master/assets/Plan.png?raw=true" download="Plan">
+                <img data-src="assets/plann2.jpg" alt="Chicago" style="width:100%;">
+            </div></a>
+
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"><img data-src="assets/left.svg"></span>
+    <span class="sr-only">Previous</span>
+</a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"><img data-src="assets/right.svg"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+<!--
+
+<img data-src="assets/plan.png" class="img-responsive" id="plan" style="margin-left:2%;margin-right:2%;">
+-->
+
+
+</div>
+
+<div class="section" data-anchor="page5" id="section5" style="height:100vh;width:100vw;" >
+    <div class="container-fluid">
+        <div class="row up_in_mobile">
+            <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12" align="center" style="margin-top:5%;">
+                <p>
+                    <span class="hidden-xs hidden-sm" style="font-family:'brandon_text_regularregular';font-size:2.1875rem;color:#6b6b6b;">need choices among the best?</span></br>
+                   <span class="hidden-xs hidden-sm" style="font-family:'brandon_textbold';font-size:2.1875rem;color:#97ae4f"> Your search ends here</span>
+                    <span class="hidden-md hidden-lg" style="font-family:'brandon_text_regularregular';font-size:1.8rem;color:#6b6b6b;">need choices among the best?</span></br>
+                    <span  class="hidden-md hidden-lg"style="font-family:'brandon_textbold';font-size:1.8rem;color:#97ae4f"> Your search ends here</span>
+                </p>
+            </div>
+            <div class="col-md-6" align="center">
+
+                <img data-src="assets/2_BHK.jpg" width="57%">
+                
+            </div>
+            <div class="col-md-6" align="center">
+                <img data-src="assets/3_BHK.jpg" width="60%" />
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section" data-anchor="page6" id="section6" style="height:100vh;width:100vw;" >
+    <div class="container-fluid">
+
+        <div class="row">
+                <center><div class="hidden-lg hidden-md col-xs-12" style="font-family:'brandon_textbold';font-size:3rem;color:#97ae4f">Facilities</div></center></br class="hidden-lg hidden-md"></br class="hidden-lg hidden-md">
+            <div class="col-md-6 col-lg-6 hidden-sm hidden-xs">
+                <p class="leisure"><span id="page61" style="font-family:'brandon_text_regularregular';color:#6b6b6b;">leisure recharge through</span> </br> <span id="page62" style="font-family:'brandon_textbold';color:#b0c963;">glorious pleasure</span>
+                    </br><span id="page63"> The mainy leisure facilities that dot the layout of Adi's North Lakeoffers plenty o rejuvenating reasons to love the lifestyleand recharge through glorious pleasures. So without stepping out of the exquisite enclave, take it all in, anytime of the day or evening</span></p>
+            <table style="margin-left:12.5%;font-family:'brandon_text_regularregular'">
+                <tr align="left">
+                <td style="width:150px;height:45px;">Swimming Pool</td>
+                <td><img data-src="assets/pool.svg" width="35px"></td>
+                <td style="width:150px;height:45px;">Tennis Court</td>
+                <td><img data-src="assets/tennis.svg" width="35px"></td>
+            </tr>
+                <tr align="left">
+                    <td style="width:150px;height:45px;">Fully Equiped Gym</td>
+                    <td><img data-src="assets/gym.svg.svg" width="35px"></td>
+                    <td style="width:150px;height:45px;">Shuttle Court</td>
+                    <td><img data-src="assets/shuttle.svg" width="35px"></td>
+                </tr>
+                <tr align="left">
+                    <td style="width:150px;height:45px;">Changing Rooms</td>
+                    <td><img data-src="assets/change.svg" width="18px" style="margin-left:7px;"></td>
+                    <td style="width:150px;height:45px;">Basketball Court</td>
+                    <td><img data-src="assets/hoop.svg" width="35px"></td>
+                </tr>
+                <tr align="left">
+                    <td style="width:150px;height:45px;">Multipurpose Hall</td>
+                    <td><img data-src="assets/hall.svg" width="35px"></td>
+                </tr>
+                <tr align="left">
+                    <td style="width:150px;height:45px;">Family Lounge</td>
+                    <td><img data-src="assets/family.svg" width="20%"></td>
+
+                </tr>
+
+            </table>
+            </div>
+
+
+
+            <div class="col-xs-12 col-sm-12 hidden-md hidden-lg" align="center">
+                <p style="margin-left:2%;margin-right:2%;margin-top:5%;"><span style="font-family:'brandon_text_regularregular';font-size:1.9rem;color:#6b6b6b;">leisure recharge through</span> </br> <span style="color:#b0c963;font-family:'brandon_textbold';font-size:3rem;">glorious pleasure</span>
+                    </br><span style="font-size:1.2rem;font-family:'brandon_text_regularregular';"> The mainy leisure facilities that dot the layout of Adi's North Lakeoffers plenty o rejuvenating reasons to love the lifestyleand recharge through glorious pleasures. So without stepping out of the exquisite enclave, take it all in, anytime of the day or evening</span></p>
+
+
+            <table style="font-family:'brandon_text_regularregular'">
+                <tr>
+                    <td style="height:50px;" width="150px;">Swimming Pool</td>
+                    <td><img data-src="assets/pool.svg" width="40px"/></td>
+                </tr>
+                <tr>
+                    <td style="height:50px;">Tennis Court</td>
+                    <td><img data-src="assets/tennis.svg" width="35px;"></td>
+                </tr>
+
+                <tr>
+                    <td style="height:50px;">Fully Equiped Gym</td>
+                    <td><img data-src="assets/gym.svg.svg" width="40px;"></td>
+                </tr>
+
+                <tr>
+                    <td style="height:50px;">Shuttle Court</td>
+                    <td><img data-src="assets/shuttle.svg" width="40px;"></td>
+                </tr>
+
+                <tr>
+                    <td style="height:50px;">Changing Rooms</td>
+                    <td><img data-src="assets/change.svg" width="20px;" style="margin-left:8px;"></td>
+                </tr>
+
+                <tr>
+                    <td style="height:50px;">Basketball Court</td>
+                    <td><img data-src="assets/hoop.svg" width="40px;"></td>
+                </tr>
+
+                <tr>
+                    <td style="height:50px;">Multipurpose Hall</td>
+                    <td><img data-src="assets/hall.svg" width="40px;"></td>
+                </tr>
+
+
+                <tr>
+                    <td style="height:50px;">Family Lounge</td>
+                    <td><img data-src="assets/family.svg" width="40px;"></td>
+                </tr>
+
+
+
+            </table>
+
+
+            </div>
+            <div class="col-md-6" align="center" style="vertical-align:middle;">
+                <img data-src="assets/facilities.jpg" width="75%" class="img-responsive" id="facilities" style="vertical-align:middle">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section" data-anchor="page7" id="section7" style="height:100vh;width:100vw;"></br></br></br></br>
+    <div style="width:90%;margin-left:5%;margin-top:-6vh;">
+        <div class="row" >
+                <center><div class="hidden-lg hidden-md col-xs-12" style="font-family:'brandon_textbold';font-size:1.8rem;color:#97ae4f">Specifications</div></center></br class="hidden-lg hidden-md"></br class="hidden-lg hidden-md">
+            <div class="col-md-3 col-10 col-lg-3 col-sm-10 specss"  >
+                <div style="width:98%;margin-left:1%;height:97%;background-color:#eeeeee;border-radius:2%;">
+                        <img data-src="assets/8.jpg" style="width: 100%;height:100%;border-radius:2%;"/>
+                </div>
+            </div>
+            <div class="col-md-3 col-10 col-lg-3 col-sm-10 specss" >
+                <div style="width:98%;margin-left:1%;height:97%;background-color:#eeeeee;border-radius:2%;">
+                    <div style="width:80%;margin-left:10%;padding:10px;padding-top:18px;">    
+                            <img data-src="assets/structure.png" style="width:32px;"/><div class="spec_head">Structure</div>
+                        <div class="spec_text">RCC framed structure</div>
+                    </br>
+                        <div class="spec_head">Super Structure</div>
+                        <div class="spec_text">Light weight clay bricks/AAC blocks in cemend mortar with smooth plastering inside and external sponge finish</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-10 col-lg-3 col-sm-10 specss" >
+                <div style="width:98%;margin-left:1%;height:97%;background-color:#eeeeee;border-radius:2%;">
+                    <div style="width:90%;margin-left:5%;padding:10px;padding-top:18px;">    
+                            <img data-src="assets/electricals.png" style="width:32px;"/><div class="spec_head">Electricals</div>
+                        <div class="spec_text">Concealed copper wiring of Finolex/ Havells/ Grate white or equivalent/Anchor make provisions for light, fans, power plug points whereever necessary. </br>
+                            <b>a)</b> Power Point for A.C in Master bedroom </br>
+                            <b>b)</b> Provision for power plug for cooking range, chimney, refrigerator, mixer grinder in kitchen.</br>
+                            <b>c)</b> 1 phase power supply in each plat</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-10 col-lg-3 col-sm-10 specss" >
+                <div style="width:98%;margin-left:1%;height:97%;background-color:#eeeeee;border-radius:2%;">
+                    <div style="width:84%;margin-left:8%;padding:10px;padding-top:18px;">    
+                            <img data-src="assets/door.png" style="width:32px;"/><div class="spec_head">Doors</div>
+                            <div class="spec_text"><u>Main Door</u> : Teak wood frame and designer shutter with melamine polish</br>
+                                <u>Internal Door</u> : Hard & HDF designer skin moulded panelled door shutter</div>
+                            </br>
+                            <img data-src="assets/windows.png" style="width:32px;"/><div class="spec_head">Windows</div>
+                            <div class="spec_text">UPVC Sliding windows with mossquito net</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top:0.5vh;">
+            <div class="col-md-3 col-10 col-lg-3 col-sm-10 specss" >
+                <div style="width:98%;margin-left:1%;height:97%;background-color:#eeeeee;border-radius:2%;">
+                    <div style="width:84%;margin-left:8%;padding:10px;padding-top:18px;">    
+                            <img data-src="assets/toilet.png" style="width:30px;vertical-align: middle;"/><div class="spec_head">Toilets</div>
+                            <div class="spec_text">All the toilets wall consists of :</br>
+                                a) CPVC of standard make</br>
+                                b) Wall mounted flush tank of Hindware/
+                                                        Parryware/CERA</br>
+                                                        c) Hot and cold water wall mixer with head
+                                                        showers</br>
+                                                        d) All CP fittings are of Hindware/Jaguar/
+                                Plumber or equivalent</br>
+                                                        e) Anti skid tile flooring for all toilet and
+                                7’height dado for walls
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-10 col-lg-3 col-sm-10 specss" >
+                <div style="width:98%;margin-left:1%;height:97%;background-color:#eeeeee;border-radius:2%;">
+                    <div style="width:80%;margin-left:10%;padding:10px;padding-top:18px;">    
+                            <img data-src="assets/flooring.png" style="width:32px;"/><div class="spec_head">Flooring</div>
+                            <div class="spec_text">2'x2' vertified tiles with 4" skriting</div>
+                            </br>
+                            <img data-src="assets/kitchen.png" style="width:32px;"/><div class="spec_head">Kithcen</div>
+                            <div class="spec_text">Black granite slab for kitchen platform with ceramic tile dado up to 2" height and stainless steel pink</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-10 col-lg-3 col-sm-10 specss" >
+                <div style="width:98%;margin-left:1%;height:97%;background-color:#eeeeee;border-radius:2%;">
+                    <div style="width:80%;margin-left:10%;padding:10px;padding-top:18px;">    
+                            <img data-src="assets/painting.png" style="width:32px;"/><div class="spec_head">Painting</div>
+                            <div class="spec_text"><u>Interior</u> : Asian tractor emulsion for interior walls</br>
+                                <u>Exterior</u> : Asian apex as per elevation</br></div>
+                            </br>
+                            <img data-src="assets/water.png" style="width:32px;"/><div class="spec_head">Water</div>
+                            <div class="spec_text">Water Suplly is ensured through overhead tank</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-10 col-lg-3 col-sm-10 specss" >
+                <div style="width:98%;margin-left:1%;height:97%;background-color:#eeeeee;border-radius:2%;">
+                    <div style="width:98%;margin-left:1%;padding:10px;padding-top:18px;">    
+                            <img data-src="assets/generator.png" style="width:32px;"/><div class="spec_head">Generator</div>
+                            <div class="spec_text"><b>a)</b> Standby generator of Kirloskar / Pinnacle or equivalent for lighting in common area. </br>
+                                <b>b) </b> 1KW power for each flat. </br>
+                                <u>Telephone & TV</u> : Telephone Point in hall & T.V Points in Master bedroom and hall
+                                </div>
+                            </br>
+                            <img data-src="assets/lift.png" style="width:32px;"/><div class="spec_head">Lifts</div>
+                            <div class="spec_text">4 Lifts of Kone/Johnson/Schindler or equivalent</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="section" data-anchor="page8" id="section8" style="height:100vh;width:100vw;" >
+    <div class="container-fluid">
+    </br>
+        <div class="row">
+            <div class="col-md-7 col-lg-7 hidden-sm hidden-xs"></br>
+                <p id="location"><span style="font-family:'brandon_text_regularregular';font-size:2.187rem;margin-left:25%;color:#6b6b6b;">everything within</span></br></p>
+                <span style="font-size:3.125rem;font-family:'brandon_textbold';margin-right:45%;line-height:0.5;margin-left:25%;color:#b0c963">easy each</span>
+
+                <img width="58%" align="center" class="img-responsive" data-src="assets/Location_Map.png" style="margin-left:20%;padding-top:18px;">
+
+            </div>
+            <div class="col-md-5 col-lg-5 hidden-sm hidden-xs">
+                <table style="width:100%;margin-top:20%;">
+
+                    <tr style="vertical-align:top;margin-bottom:100px;">
+                        <td style="vertical-align:top;padding-bottom:2%;font-family:'brandon_textbold';color:#97ae4f;">Education</td>
+                        <td style="vertical-align:top;padding-bottom:2%;font-family:'brandon_text_regularregular';">Reva University </br> Vidyashilp Academy</br>Delhi Public School </br> Canadian International School </br> Cambridge Public School</br>Green Field Public School</td>
+                           </td>
+
+
+                    </tr>
+                    <tr style="vertical-align:top;">
+                        <td style="vertical-align:top;padding-bottom:2%;padding-top:2%;font-family:'brandon_textbold';color:#97ae4f;">Shopping</td>
+                        <td style="vertical-align:top;padding-bottom:2%;padding-top:2%;font-family:'brandon_text_regularregular';;">Element Shopping Mall </br> RMZ Galleria</td>
+
+                    </tr>
+
+                    <tr style="vertical-align:top;">
+                        <td style="vertical-align:top;padding-bottom:2%;padding-top:2%;font-family:'brandon_textbold';color:#97ae4f;">Hospitals</td>
+                        <td style="vertical-align:top;padding-bottom:2%;padding-top:2%;font-family:'brandon_text_regularregular';">Columbia Asia hospital </br>Regal Hospital </br>Aster CMI Hospital</td>
+
+                    </tr>
+
+                    <tr style="vertical-align:top;">
+                        <td style="vertical-align:top;padding-bottom:2%;padding-top:2%;font-family:'brandon_textbold';color:#97ae4f;">IT</td>
+                        <td style="vertical-align:top;padding-bottom:2%;padding-top:2%;font-family:'brandon_text_regularregular';">Manyata Tech Park </br> Bharatiya City</td>
+
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 hidden-md hidden-lg" align="center">
+                <p id="location"><span style="font-family:'brandon_text_regularregular';font-size:1.95rem;color:#6b6b6b;">everything within</span></br></p>
+                <span style="font-size:2.95rem;font-family:'brandon_textbold';line-height:0.5;color:#b0c963">easy each</span>
+
+                <img width="65%" align="center" class="img-responsive" data-src="assets/Location_Map.png" style="padding-top:18px;">
+
+            </div>
+            <div class="col-xs-12 col-sm-12 hidden-md hidden-lg" align="center">
+                <table style="width:100%;" >
+
+                    <tr style="vertical-align:top;margin-bottom:100px;" align="center">
+                        <td style="vertical-align:top;padding-bottom:2%;color:#97ae4f;">Education</td>
+                        <td style="vertical-align:top;padding-bottom:2%;">Reva University </br> Vidyashilp Academy</br>Delhi Public School </br> Canadian International School </br> Cambridge Public School</br>Green Field Public School</td>
+
+
+                    </tr>
+                    <tr align="center" style="vertical-align:top;">
+                        <td style="vertical-align:top;padding-bottom:2%;padding-top:2%;color:#97ae4f;">Shopping</td>
+                        <td style="vertical-align:top;padding-bottom:2%;padding-top:2%;">Element Shopping Mall </br> RMZ Galleria</td>
+
+                    </tr>
+
+                    <tr  align="center" style="vertical-align:top;">
+                        <td style="vertical-align:top;padding-bottom:2%;padding-top:2%;color:#97ae4f;">Hospitals</td>
+                        <td style="vertical-align:top;padding-bottom:2%;padding-top:2%;">Columbia Asia hospital </br>Regal Hospital </br>Aster CMI Hospital</td>
+
+                    </tr>
+
+                    <tr align="center" style="vertical-align:top;border-bottom:1px solid black;">
+                        <td style="vertical-align:top;padding-bottom:2%;padding-top:2%;color:#97ae4f;">IT</td>
+                        <td style="vertical-align:top;padding-bottom:2%;padding-top:2%;">Manyata Tech Park </br> Bharatiya City</td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>
+<div class="section" data-anchor="page9" id="section9" style="height:100vh;width:100vw;">
+        <div style="width:100%;">
+            <div class="row" style="padding-bottom:10vh;">
+                    <center><div class="hidden-lg hidden-md col-xs-12" style="font-family:'brandon_textbold';font-size:2.5rem;color:#97ae4f">Contact</div></center></br class="hidden-lg hidden-md"></br class="hidden-lg hidden-md">
+                <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                    <div class="arth_contact" >
+                        </br><center><div style="background-image:url('assets/arth_logo.png');background-size:100% 100%;width:100px;height:80px;"></div></center>
+                        <div style="width:94%;margin-left:3%;"></br><center><div style="font-family:'brandon_textbold'">Architects</div></center>
+                        </br><center><div style="font-family:'brandon_text_regularregular'">Arth Design & Build</br>301, Abk Olbee Plaza</br> Opp. Care Hospital</br>Road No. 1, Banjara Hills</br> Hyderabad</div></center>
+                        </br><center><div style="font-family:'brandon_text_regularregular'">Ph: 040-4260-7866</div></center>
+                    </div>    
+                </div>
+                
+                </div>
+     
+                <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                    <div class="adi_contact">
+                        </br><center><div style="background-image:url('assets/Logo.png');background-size:100% 100%;width:100px;height:80px;"></div></center>
+                        <div style="width:94%;margin-left:3%;"></br><center><div style="font-family:'brandon_textbold'">Developers and Site Address</div></center>
+                        </br><center><div style="font-family:'brandon_text_regularregular'">No 1/2 & 18/2 </br>Adjacent to Vidhana Soudha</br>Layout, Agrahara Village</br> Yelahanka Hobli,</br>Bangalore North</div></center>
+                        </br><center><div style="font-family:'brandon_text_regularregular'">Ph: 9663220033 / 9663220077 / 9944596961</div></center>    
+                    </div>
+                </div>
+                    
+                </div>
+     
+                <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                    <div class="sns_contact" >
+                        </br><center><div style="background-image:url('assets/sns_logo1.jpg');background-size:100% 100%;width:100px;height:80px;"></div></center>
+                        </br><center><div style="font-family:'brandon_textbold'">Structural Engineering</div></center>
+                        </br><center><div style="font-family:'brandon_text_regularregular'">S'n'S Associates</br>HO: Vidya Nagar, Hyderabad</br>BO: Horamavu, Bengaluru </div></center>
+                        </br></br><center><div style="font-family:'brandon_text_regularregular'">E-mail: info@snsassociates.co.in</div></center>    
+                    </div>
+                    
+                </div>
+            </br class="hidden-md hidden-md"></br class="hidden-md hidden-md"></br class="hidden-md hidden-md">
+                <div class="col-md-12" id="contact">
+                 <img data-src="assets/contact1.png" width="100%" class="img-responsive" id="contact">
+                </div>
+
+                
+     
+            </div>
+        </div>
+     </div>
+</div>
+<script src="nav/navbar.js"></script>
+
+</body>
+</html>
