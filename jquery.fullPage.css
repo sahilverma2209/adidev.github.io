@@ -425,9 +425,16 @@
     .fac_down_in_mobile{
         margin-top:8vh;
     }  
+
+    .about_down_mobile{
+        margin-top:15px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
+    .about_down_mobile{
+        margin-top:5px;
+    }
     .navlogo{
         height:4.5vh;
     }
