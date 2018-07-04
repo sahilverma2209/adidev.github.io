@@ -325,6 +325,11 @@
 .navlogo{
     height:10vh;
 }
+@media only screen and (max-width: 800px) {
+    .about_down_mobile{
+        margin-top:15px;
+    }
+}
 @media only screen and (max-width: 600px) {
     .navlogo{
         height:4.5vh;
