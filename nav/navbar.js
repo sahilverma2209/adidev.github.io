@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var isMobile = window.matchMedia("only screen and (max-width: 760px)");
     if (isMobile.matches) {
-
+        alert($(window).width());
         // var targetOffset1 = $("#section1").offset().top;
         var targetOffset2 = $("#section2").offset().top;
         var targetOffset3 = $("#section3").offset().top;
