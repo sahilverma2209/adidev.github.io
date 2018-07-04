@@ -3960,19 +3960,23 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
     color:#444;
     background-color:transparent
 }
+
+/* toggle button css*/
 .navbar-inverse .navbar-toggle{
-    background-color:#f9f9f9;
-    border-color:#333
+    background-color:#f9f9f9; /* background color of button before touch*/
+    border-color:#7c99a5;
 }
 .navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-toggle:hover{
-    background-color:#333
+    background-color:#e3ebee; /* background color of button after touch*/ 
 }
 .navbar-inverse .navbar-toggle .icon-bar{
-    background-color:#fff
+    font-size:1px;
+    background-color:#5e9fbb; /* lines inside navbar toggle button*/
 }
+
 .navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form{
 
-    border-color:#101010
+    border-color:#ffffff /*line below navbar logo*/
 }
 .navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:focus,.navbar-inverse .navbar-nav>.open>a:hover{
     color:#fff;
